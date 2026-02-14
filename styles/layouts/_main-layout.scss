@@ -1,0 +1,18 @@
+@use '../globals' as g;
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: var(--clr-grey-950);
+    padding: 4rem 1rem 0 1rem;
+    color: var(--clr-white);
+}
+
+.settings-container {
+    background-color: var(--clr-grey-800);
+    width: 21.4375rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: g.$spacing-200;
+}

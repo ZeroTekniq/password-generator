@@ -1,0 +1,17 @@
+@use '../globals' as g;
+
+.generator-output-wrapper {
+    width: 21.4375rem;
+    height: 4rem;
+    background-color: var(--clr-grey-800);
+    color: var(--clr-grey-600);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: g.$spacing-300;
+    margin-bottom: g.$spacing-200;
+}
+
+.output-title {
+    @include g.text-preset-2;
+}

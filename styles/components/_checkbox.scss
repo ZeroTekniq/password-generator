@@ -1,0 +1,26 @@
+@use '../globals' as g;
+
+.checkbox-wrapper {
+    @include g.text-preset-4;
+    height: 8.19rem;
+    background-color: var(--clr-grey-800);
+    color: var(--clr-grey-200);
+    display: grid;
+    gap: g.$spacing-200;
+    margin-block: g.$spacing-400;
+}
+
+.checkbox-flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    
+}
+
+.checkbox {
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 2px solid var(--clr-grey-200);
+}
+

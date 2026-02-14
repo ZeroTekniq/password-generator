@@ -1,19 +1,16 @@
 @use '../globals' as g;
 
-p, span {
+.slider-title {
     @include g.text-preset-4;
 }
-span {
+.length-value {
+    @include g.text-preset-1;
     color: var(--clr-green-200);
 }
 
 .slider-wrapper {
-    width: 23.4375rem;
-    height: 7.25rem;
+    height: 4.25rem;
     color: var(--clr-white);
-    background-color: var(--clr-grey-800);
-    padding: g.$spacing-300 g.$spacing-400;
-    gap: g.$spacing-100;
 }
 
 .slider-label-flexbox {
@@ -24,7 +21,7 @@ span {
 }
 .label-slider-flexbox {
     display: grid;
-    gap: g.$spacing-100;
+    gap: g.$spacing-200;
 }
 
 ::-webkit-slider-runnable-track{

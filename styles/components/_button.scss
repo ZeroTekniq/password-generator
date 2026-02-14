@@ -1,0 +1,23 @@
+@use '../globals' as g;
+
+.button-wrapper {
+    width: 100%;
+    height: g.$spacing-700;
+}
+
+.button-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: g.$spacing-200;
+}
+
+button {
+    @include g.text-preset-4;
+    text-transform: uppercase;
+    width: 100%;
+    padding: g.$spacing-200 g.$spacing-1300;
+    background-color: var(--clr-green-200);
+    color: var(--clr-grey-800);
+    border: none;
+}

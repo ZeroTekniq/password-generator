@@ -1,0 +1,8 @@
+@use '../globals' as g;
+
+header {
+    @include g.text-preset-3;
+    text-align: center;
+    color: var(--clr-grey-600);
+    margin-bottom: g.$spacing-200;
+}
